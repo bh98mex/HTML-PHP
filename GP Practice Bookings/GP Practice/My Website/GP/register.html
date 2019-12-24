@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GP Practice Bookings</title>
+
+    <!-- Bootstrap core CSS -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+ 
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/navbar.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+        <header>
+            <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/NHS-Logo.png" width="200px;">
+            </div>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <h4 class="text-center">Bookings - Register</h4>
+            </div>
+            <div style="text-align: right" class="col-md-4">
+                <p>GP Practice, 1st Floor</p>
+                <p>Chalkhill Youth Centre</p>
+                <p>31 Chalkhill Road</p>
+                <p>Wembley, Middlesex, HA99 DS</p>
+            </div>
+            </div>
+        </header>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-info">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="opening-times.html">Opening Times</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="newpatients.html">New Patients</a></li>
+              <li class="active"><a href="bookings.html">Bookings</a></li>
+              <li><a href="contact.html">Contact Details</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- Main component for a primary marketing message or call to action -->
+        <div class="row">
+            <div class="col-md-8">
+                <p>Hello,</p>
+                <div class="row">
+                <div class="col-md-6">
+                <p style="padding-top: 15px">Please input your Pacient Access Acount Number found on the Registration Letter</p>
+                    </div>
+                    <div class="col-md-6">
+                             <div class="form-group">
+    <input type="text" class="form-control" id="regnumber" aria-describedby="regnumber" placeholder="Reg Number">
+  </div>
+                    </div>
+                </div>
+                <!---- Surname ----->
+                <div class="row">
+                    <div class="col-md-6">
+                    <p style="padding-top: 25px">Please enter your Surname</p>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="form-group">
+    <input type="text" class="form-control" id="username" aria-describedby="username" placeholder="Surname">
+  </div>
+                    </div>
+                </div>
+                <!---- Name ---->
+                <div class="row">
+                    <div class="col-md-6">
+                    <p style="padding-top: 25px">Please enter your Name</p>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="form-group">
+    <input type="text" class="form-control" id="username" aria-describedby="username" placeholder="Name">
+  </div>
+                    </div>
+                </div>
+                
+                <!--- Email ---->
+                
+                <div class="row">
+                    <div class="col-md-6">
+                    <p style="padding-top: 25px">Please enter your Email</p>
+                    </div>
+                    <div class="col-md-6">
+                     <div class="form-group">
+    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email">
+  </div>
+                </div>                   
+  </div>
+                <div class="row">
+                <div class="col-md-6">
+                    <a class="btn btn-lg btn-danger pull-left" href="bookings.html" role="button"><i class="fa fa-times"></i> Cancel</a>
+                </div>
+                <div class="col-md-6">
+                <a class="btn btn-lg btn-info pull-right" href="#" role="button"><i class="fa fa-lock"></i> Sign in</a>
+                </div>
+                </div>
+                
+                </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="assets/images/letter.gif" alt="letter">
+            </div>
+        </div>
+        
+        <footer>
+            <center><h4>Follow us: <img src="assets/images/facebook.png" alt="facebook"> <img src="assets/images/twitter.png" alt="twitter"> <img src="assets/images/instagram.png" alt="instagram"> </h4> </center>                            
+                                                                                            
+        </footer>
+        
+
+    </div> <!-- /container -->
+  </body>
+    <!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  
+</html>
