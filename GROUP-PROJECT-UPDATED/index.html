@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEVAL | Home</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-datepicker3.css"/>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#">CHEVAL</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="service-page.html">Services</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="wellness.html">Wellness</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+    <div class="header-image"></div>
+    <div class="container">
+    <br>
+  <div class="box-date-picker">
+      <center><h3 class="primary">RESERVE AN APARTMENT</h3></center>
+      <hr>
+       <form name="calendar">
+  <div class="row">
+        <div class="col col-md-4">
+        <label for="checkindate">Check-in</label>
+        <input class="form-control" id="checkindate" name="date" placeholder="MM/DD/YYYY" type="text"/>
+        </div>
+        <div class="col col-md-4">
+        <label for="checkoutdate">Check-out</label>
+        <input class="form-control" id="checkoutdate" name="date" placeholder="MM/DD/YYYY" type="text"/>
+        </div>
+        <div class="col col-md-2">
+        <label for="nrofBeds">Beds</label>
+    <select class="form-control" id="nrofBeds" name="nrofBeds">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+        </div>
+        <div class="col col-md-2" style="padding-top:32px;">
+            <button type="button" value="submit" class="btn btn-block btn-secondary" onClick="reservation()">Search</button>
+        </div>
+     </div>
+     <hr>
+     </form>
+      </div>
+      <div class="box-container">
+      <p id="demo"></p>
+      <div id="demo2"></div>
+      </div>
+      
+  
+  <!---- DESCRIPTION ---->
+  <div class="box-container">
+  <p style="text-align:justify">Welcome to Cheval Residences, delivering over 35 years of excellence as the leading luxury accommodation provider in London. Offering a collection of London’s most desirable Serviced Apartments and Residences, located in some of its most sought-after neighbourhoods. Each residence has its own individual style, yet all share the same ethos and levels of service rarely enjoyed outside the world’s finest hotels.</p>
+  <p style="text-align:justify">Available for one night or more as well as for extended stays of 3 months or more, these 5 star residences offer unequalled luxury in the heart of London.</p>
+  <p style="text-align:justify">Naturally, this means providing beautiful, comfortable and thoughtfully furnished apartments. But just as importantly, it’s about our people – their dedication and attention to detail.</p>
+  </div>
+  <!----- CARDS ----->
+  <div class="box-container">
+  <div class="row">
+      <div class="col col-4">
+          <div class="card" style="width:100%">
+  <img class="card-img-top" src="/assets/img/scenery/Cheval8.jpg" alt="Beautiful View">
+  <div class="card-body">
+    <h5 class="card-title">Beautiful View</h5>
+    <p class="card-text">Providing beautiful, comfortable apartments with an incredible astonishing view view.</p>
+    <a href="#" class="btn btn-primary btn-block">See more</a>
+  </div>
+</div>
+      </div>
+      <div class="col col-4">
+          <div class="card" style="width:100%">
+  <img class="card-img-top" src="/assets/img/scenery/Penthouse.jpg" alt="Extended Stay">
+  <div class="card-body">
+    <h5 class="card-title">Extended Stay</h5>
+    <p class="card-text">Cheval Residences offers aa portfolio of luxury residences in London's most prestigious locations.</p>
+    <a href="#" class="btn btn-primary btn-block">See more</a>
+  </div>
+</div>
+      </div>
+      <div class="col col-4">
+  <div class="card" style="width:100%">
+  <img class="card-img-top" src="/assets/img/scenery/Sport.jpg" alt="Exercise Facilities">
+  <div class="card-body">
+    <h5 class="card-title">Exercise Facilities</h5>
+    <p class="card-text">We wouldn't want you to miss on your workout. Latest equipment at your disposal.</p>
+    <a href="#" class="btn btn-primary btn-block">Read More</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Book a room</a></li>
+                        <li><a href="service-page.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="about-us.html">About the hotel</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+               
+                <div class="col-sm-4">
+                    <h5>A project by</h5>
+                    <ul>
+                        <li ><a href="#">Radu Prajescu</a></li>
+                        <li><a href="#">Leontin Groza</a></li>
+                        <li><a href="#">Stoyan Stoyanov</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="reservation" tabindex="-1" role="dialog" aria-labelledby="reservation" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <strong><p class="modal-title" id="reservation">CHEVAL RESERVATION ONLINE FORM - DETAILS</p></strong>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="demo3"></p>
+        <div class="container">
+    <hr>
+    <form name="userSurvey" onsubmit="return ((validName() && validEmail() && validNo());">
+    <!-- NAME INPUT -->
+    <div class="row">
+    <div class="col col-2">
+    <label>Name:
+    (required)
+    </label>
+    </div>
+    <div class="col col-10">
+    <input class="form-control" type="text" name="userName" id="userName" required onfocusout="validName()">
+    <p id="errorName"></p>
+        </div>
+    </div>
+    <br>
+    <!-- EMAIL INPUT -->
+    <div class="row">
+    <div class="col col-2">
+    <label>Email:
+    (required)
+    </label>
+    </div>
+    <div class="col col-10">
+    <input class="form-control" type="email" name="userEmail" id="email" required onfocusout="validEmail()">
+         <p id="errorEmail"></p>
+        </div>
+    </div>
+    <br>
+    <!-- PHONE INPUT -->
+    <div class="row">
+    <div class="col col-2">
+    <label>Phone:
+    (required)
+    </label>
+    </div>
+    <div class="col col-10">
+    <input class="form-control" type="tel" name="phone" id="phone" required onfocusout="validNo()">
+        <p id="errorNo"></p>
+    </div>
+    </div>
+    </form>
+        <hr>
+            <form name="payment">
+        <!----- CREDIT CARD FORM ----->
+        <div class="row">
+            
+              <div class="col col-6">
+                <!----- BOOKING DETAILS ----->
+                <p id="apartmentdetails"></p>
+                <p id="pricetotal"></p>
+            </div>
+            <div class="col col-6">
+                <img class="img-responsive animated slideInRight" src="/assets/img/scenery/Cheval1.jpg" name="slideframe" width="100%" alt="Apartment">
+                <form name="slidecontrols" style="text-align: center">
+                <div class="controls">
+                <center><button type="button" style="text-align: left;" class="btn btn-primary" value="Previous Slide" onclick="displaySlide('previous');">Previous slide</button>
+                <button type="button" class="btn btn-primary" value="Next Slide" onclick="displaySlide('next');">Next Slide </button>       
+                </center>
+                    </div>
+                <br>       
+                </form>
+      </div>
+        </div>
+        </form>
+        <button class="form-control btn btn-success" onclick="validAll()">Check Details</span></button>
+      <div class="modal-footer">
+      <p id="completeFirstForm"><span><button type="button" class="btn btn-secondary" onClick="resetForm()" value="Reset Form">Reset form</button></span></p>
+      </div>
+    </div>
+  </div>
+      </div>
+            </div>
+        </div>
+        
+<!--- PAYMENT MODAL ---->
+        
+<div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <strong><p class="modal-title" id="paymentModal">CHEVAL RESERVATION ONLINE FORM - PAYMENT</p></strong>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form name="paymentform">
+        <div class="form-group">
+        <label for="nameOnCard">Name on Card</label>
+        <input class="form-control" type="text" id="nameOnCard" placeholder="Name as written on the card" required onfocusout="validNameOnCard()">
+        <p id="errorNameOnCard"></p>
+        <label for="cardNumber">Card Number</label>
+        <input class="form-control" type="number" id="cardNumber" placeholder="16 digits on card" required>
+
+        <br>
+        <div class="row">
+        <div class="col col-4">
+        <label for="cvc">CVC</label>
+        <input type="number" class="form-control" id="cvc" placeholder="ex. 331" onfocusout="validCVC(this.value)" required>
+        <p id="errorCVCNumber"></p>
+        </div>
+        <div class="col col-4">
+        <label for="expirationMonth">Expiration</label>
+        <input type="number"  class="form-control" id="expirationMonth" placeholder="MM" onfocusout="validMonth(this.value)" required onfocusout="validMonth(this.value)">
+        <p id="errorMonth"></p>
+        </div>
+        <div class="col col-4">
+        <label for="expirationYear">&nbsp;</label>
+        <input type="number" class="form-control" id="expirationYear" onfocusout="validYear(this.value)" placeholder="YYYY" required>
+        <p id="errorYear"></p>
+        <br>
+        </div>    
+        </div>
+        <br>
+        <button class="form-control btn btn-success">Total Price: £<span id="paymentpricetotal"></span></button>
+        <br>
+        <br>
+        </div>
+          </form>
+      </div>
+      <p id="completeBooking"></p>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#confirmationBookingModal">Complete Payment</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--- BOOKING MODAL ---->
+        
+<div class="modal fade" id="confirmationBookingModal" tabindex="-1" role="dialog" aria-labelledby="confirmationBookingModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <strong><p class="modal-title" id="confirmationBookingModal">CHEVAL RESERVATION ONLINE FORM - CONFIRMATION</p></strong>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="modal-body" onLoad="confirmationReservation()">
+        <form name="confirmationform">
+           <h2>Your confirmation number is 546565;</span></h2>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+    <div class="footer-copyright">
+            <p>© 2018 Copyright University of Ulster</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script> 
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bookings.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/bootstrap/js/slider.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap-datepicker.min.js"></script>
+</body>
+
+</html>
